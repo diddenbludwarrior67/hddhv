@@ -802,7 +802,7 @@
         }
 
         function restart() {
-            score = 0; health = 100; shield = 0; maxShield = 0; level = 1;
+            score = 0; health = 10000; shield = 0; maxShield = 0; level = 1;
             enemies = []; boss = null; projectiles = []; particles = [];
             isGameOver = false; gameOverEl.style.display = 'none';
             weapons.forEach((w, i) => { if (i > 0) w.unlocked = false; });
